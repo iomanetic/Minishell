@@ -46,7 +46,7 @@ HEADERS		=	includes/minishell.h \
 
 CC			= 	gcc
 
-CFLAGS		=  -Wall -Wextra -Werror -O2
+CFLAGS		=  -Wall -Wextra -Werror
 
 F_READLINE	=	-lreadline -L/opt/homebrew/opt/readline/lib -I/opt/homebrew/opt/readline/include
 
